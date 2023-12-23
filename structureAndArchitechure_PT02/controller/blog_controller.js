@@ -1,11 +1,9 @@
 const Blog = require('../models/blog_model');
-const {createBlogSchema} = require('../validations/blog.validation');
 
 const  createBlog = async (req, res) => {
   try {
-    // create blog controller
-    const value = await createBlogSchema.body.validateAsync(req.body);
-    await Blog.create(value);
+    // create new blog controller
+    await Blog.create(req.body);
     res.send({success: true, message: 'blog created'});
   } catch (error) {
     res.send({error: true, message: error.details})
@@ -14,7 +12,7 @@ const  createBlog = async (req, res) => {
 
 const  getBlog = async (req, res) => {
   try {
-    // get blog controller
+    // get all blog controller
     const blogs = await Blog.find({});
     res.send({blogs});
   } catch (error) {
