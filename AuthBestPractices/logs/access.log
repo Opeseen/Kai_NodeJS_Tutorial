@@ -1,0 +1,11 @@
+ POST /auth/register 400 5.213 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:03:51 GMT - error-message: "body.email" must be a valid email
+ POST /auth/register 400 3.477 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:30 GMT - error-message: "body.email" must be a valid email
+ POST /auth/register 400 3.611 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:37 GMT - error-message: "body.email" must be a valid email
+ POST /auth/register 400 3.967 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:50 GMT - error-message: "body.password" failed custom validation because validator is not defined
+ POST /auth/register 400 4.484 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:06:16 GMT - error-message: "body.password" failed custom validation because validator is not defined
+ POST /auth/register 400 44.083 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:11:25 GMT - error-message: "body.password" failed custom validation because validator is not defined
+ POST /auth/register 400 68.052 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:14:12 GMT - error-message: "body.password" failed custom validation because validator is not defined
+ POST /auth/register 400 22.955 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:16:48 GMT - error-message: Password should be at least 8 character with at least one uppercase, lowercase, number and special character
+ POST /auth/register 400 8.857 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:19:39 GMT - error-message: Password should be at least 8 character with at least one uppercase, lowercase, number and special character
+ POST /auth/register 201 80.258 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:19:47 GMT
+ POST /auth/register 400 14.891 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:21:31 GMT - error-message: Email Adddress Is Already Taken
