@@ -1,10 +1,11 @@
 require('dotenv').config();
 const schemaValidator = require('../validations/env.validators');
+const logger = require('./logger');
 
 // Using JavaScript object destructuring to get variables
 const {value: envVars, error} = schemaValidator.validate(process.env);
 if (error){
-  console.log(error);
+  logger.error(error);
 };
 
 module.exports = {

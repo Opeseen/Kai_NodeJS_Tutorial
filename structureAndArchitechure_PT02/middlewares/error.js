@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const httpStatus = require('http-status');
 const config = require('../config/config');
 const ApiError = require('../utils/ApiError');
+const logger = require('../config/logger');
 
 
 const errorConverter = (err, req, res, next) => {
@@ -12,6 +13,11 @@ const errorConverter = (err, req, res, next) => {
     error = new ApiError(statusCode, message, false, error.stack);
   };
   next(error);
+};
+
+const pathNotFoundErrorHandler = (req, res, next) => {
+  const statusCode = httpStatus.NOT_FOUND;
+  next(new ApiError(httpStatus.NOT_FOUND, httpStatus[statusCode]));
 };
 
 const errorHandler = (err, req, res, next) => {
@@ -29,7 +35,7 @@ const errorHandler = (err, req, res, next) => {
   };
   res.locals.errorMessage = message;
   if(config.env === 'development'){
-    console.log(err);
+    logger.info(err);
   };
   res.status(statusCode).send(response);
 };
@@ -37,4 +43,5 @@ const errorHandler = (err, req, res, next) => {
 module.exports = {
   errorHandler,
   errorConverter,
+  pathNotFoundErrorHandler,
 };

@@ -1,0 +1,11 @@
+ GET /blog 200 16.889 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 16:57:22 GMT
+ POST /blog 500 30.538 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 16:57:37 GMT - error-message: Blog.createe is not a function
+ POST /blog 201 34.539 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 16:58:29 GMT
+ POST /blog 400 6.018 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 16:58:53 GMT - error-message: "body.title" is required
+ GET /blogs 404 2.929 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 16:59:02 GMT - error-message: NOT FOUND
+ GET /blogs 404 7.391 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:00:46 GMT - error-message: Not Found
+ POST /blog 400 18.124 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:01:35 GMT - error-message: "body.title" is required
+ POST /blog 400 7.939 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:06:29 GMT - error-message: "body.title" is required
+ POST /blog 500 32.618 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:06:42 GMT - error-message: blogService.createBlog is not a function
+ POST /blog 201 40.296 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:07:45 GMT
+ GET /blog 200 17.190 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 17:08:30 GMT

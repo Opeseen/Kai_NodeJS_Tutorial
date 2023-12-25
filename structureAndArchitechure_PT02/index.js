@@ -1,22 +1,41 @@
-const express = require('express');
-const app = express();
 const mongoose = require('mongoose');
-const blogRouter = require('./routes/blog_routes');
+const http = require('http');
 const config = require('./config/config');
-const { errorHandler, errorConverter } = require('./middlewares/error');
-
+const app = require('./server');
+const logger = require('./config/logger');
 
 mongoose
   .connect(config.dbConnection)
-  .then(() => console.log("mongodb connected"))
-  .catch((error) => console.log(error));
+  .then(() => logger.info("mongodb connected"))
+  .catch((error) => logger.info(error));
 
-app.use(express.json());
-app.use(blogRouter); // Router level middleware
-app.use(errorConverter);
-app.use(errorHandler); // Error handler level middleware
+const httpServer = http.createServer(app);
+const server = httpServer.listen(config.port, () => {
+  logger.info(`Server is listening on port ${config.port}`);
+});
+
+const exitHandler = () => {
+  if(server){
+    server.close(() => {
+      logger.info("Server Closed!");
+      process.exit(1);
+    });
+  }else{
+    process.exit(1);
+  }
+};
+
+const unExpectedErrorHandler = (error) => {
+  logger.error(error);
+  exitHandler();
+};
 
 
-app.listen(config.port, () => {
-  console.log(`App is listening on port ${config.port}`);
+process.on("uncaughtException", unExpectedErrorHandler);
+process.on("unhandledRejection", unExpectedErrorHandler);
+process.on("SIGTERM", () => {
+  logger.info("SIGTERM received");
+  if(server){
+    server.close();
+  }
 });
