@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const schemaValidator = require('../validations/env.validators');
 
 // Using JavaScript object destructuring to get variables
