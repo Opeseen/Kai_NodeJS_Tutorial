@@ -1,6 +1,6 @@
 const catchAsyncError = require('../utils/catchAsyncError');
 const httpStatus = require('http-status');
-const {userService, tokenService} = require('../services');
+const {userService, tokenService, authService} = require('../services');
 
 const registerUser = catchAsyncError(async(req,res) => {
   // Create a new User.
@@ -12,6 +12,16 @@ const registerUser = catchAsyncError(async(req,res) => {
 
 });
 
+const login = catchAsyncError(async(req,res) => {
+  const {email, password} = req.body;
+  const user = await authService.login(email, password);
+  // Generate token for the User.
+  const token = await tokenService.generateAuthToken(user._id);
+  res.status(httpStatus.OK).send({user, token});
+
+});
+
 module.exports = {
   registerUser,
+  login,
 };
