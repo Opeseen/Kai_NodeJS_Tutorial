@@ -7,7 +7,7 @@ const logger = require('./config/logger');
 mongoose
   .connect(config.dbConnection)
   .then(() => logger.info("mongodb connected"))
-  .catch((error) => logger.info(error));
+  .catch((error) => logger.error(error));
 
 const httpServer = http.createServer(app);
 const server = httpServer.listen(config.port, () => {

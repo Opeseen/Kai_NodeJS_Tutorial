@@ -13,7 +13,7 @@ const createUser = async(userDetails) => {
 
 
 const getUserByEmail = async(email) => {
-  return await User.find({email});
+  return await User.findOne({email});
 };
 
 

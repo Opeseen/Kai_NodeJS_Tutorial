@@ -1,53 +1,21 @@
- POST /auth/register 400 5.213 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:03:51 GMT - error-message: "body.email" must be a valid email
- POST /auth/register 400 3.477 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:30 GMT - error-message: "body.email" must be a valid email
- POST /auth/register 400 3.611 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:37 GMT - error-message: "body.email" must be a valid email
- POST /auth/register 400 3.967 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:05:50 GMT - error-message: "body.password" failed custom validation because validator is not defined
- POST /auth/register 400 4.484 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:06:16 GMT - error-message: "body.password" failed custom validation because validator is not defined
- POST /auth/register 400 44.083 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:11:25 GMT - error-message: "body.password" failed custom validation because validator is not defined
- POST /auth/register 400 68.052 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:14:12 GMT - error-message: "body.password" failed custom validation because validator is not defined
- POST /auth/register 400 22.955 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:16:48 GMT - error-message: Password should be at least 8 character with at least one uppercase, lowercase, number and special character
- POST /auth/register 400 8.857 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:19:39 GMT - error-message: Password should be at least 8 character with at least one uppercase, lowercase, number and special character
- POST /auth/register 201 80.258 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:19:47 GMT
- POST /auth/register 400 14.891 ms PostmanRuntime/7.36.0 Mon, 25 Dec 2023 22:21:31 GMT - error-message: Email Adddress Is Already Taken
- GET /blog 200 30.025 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:49:22 GMT
- POST /blog 400 13.180 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:49:48 GMT - error-message: "body.title" is required
- POST /blog 201 461.033 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:51:37 GMT
- GET /blog 200 7.454 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:51:43 GMT
- POST /auth/register 400 60.062 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:52:37 GMT - error-message: Password should be at least 8 character with at least one uppercase, lowercase, number and special character
- POST /auth/register 201 175.505 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:52:47 GMT
- POST /auth/register 400 18.367 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 17:53:52 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 400 72.876 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:34:12 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 201 52.890 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:34:20 GMT
- POST /auth/register 400 7.997 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:35:04 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 201 133.348 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:39:31 GMT
- POST /auth/register 400 16.001 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:40:22 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 400 77.555 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:41:26 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 201 64.488 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:41:32 GMT
- POST /auth/register 201 141.707 ms PostmanRuntime/7.32.2 Wed, 27 Dec 2023 18:43:23 GMT
- POST /auth/register 400 254.619 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 20:29:45 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 400 6.515 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 20:29:50 GMT - error-message: Email Adddress Is Already Taken
- GET /blog 200 29.548 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 20:30:06 GMT
- POST /auth/register 201 256.170 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 20:30:31 GMT
- GET /blog 200 26.281 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:33:17 GMT
- POST /auth/register 400 34.958 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:34:25 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 201 117.228 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:34:38 GMT
- POST /auth/register 201 244.376 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:37:46 GMT
- POST /auth/register 400 9.806 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:38:17 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 201 50.613 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:38:25 GMT
- POST /auth/login 400 9.926 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:41:03 GMT - error-message: "body.name" is not allowed
- POST /auth/login 400 102.746 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:41:21 GMT - error-message: Unexpected string in JSON at position 83
- POST /auth/login 400 4.505 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:41:57 GMT - error-message: "body.name" is not allowed
- POST /auth/login 200 3.371 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:42:16 GMT
- POST /auth/login 200 3.801 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:42:21 GMT
- POST /auth/login 200 31.736 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:42:24 GMT
- POST /auth/login 200 54.268 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:43:39 GMT
- POST /auth/login 500 35.171 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:45:44 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 6.107 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:46:04 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 7.249 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:46:37 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/register 201 145.465 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:50:50 GMT
- POST /auth/login 500 10.799 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:51:28 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 34.495 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 21:53:33 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 35.386 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 22:05:22 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 310.485 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 22:39:46 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 53.212 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 22:43:52 GMT - error-message: user.isPasswordMatch is not a function
- POST /auth/login 500 31.078 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 22:48:26 GMT - error-message: user.isPasswordMatch is not a function
+ POST /auth/login 200 100.794 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:22 GMT
+ POST /auth/login 401 94.443 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:29 GMT - error-message: Incorrect email or password
+ POST /auth/login 200 85.041 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:37 GMT
+ POST /auth/register 400 10.432 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:43 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/register 400 33.185 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:22 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/login 200 79.876 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:26 GMT
+ POST /auth/login 401 6.866 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:43 GMT - error-message: Incorrect email or password
+ POST /auth/register 400 10.466 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:57:30 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/register 400 11.591 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:57:54 GMT - error-message: "body.email" must be a valid email
+ POST /auth/register 201 106.123 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:58:02 GMT
+ POST /auth/login 200 49.255 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:58:55 GMT
+ POST /auth/login 401 46.411 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:13 GMT - error-message: Incorrect email or password
+ POST /auth/login 401 55.200 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:30 GMT - error-message: Incorrect email or password
+ POST /auth/login 200 42.505 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:41 GMT
+ POST /auth/login 200 70.445 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:00:02 GMT
+ POST /auth/login 200 85.142 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:00:50 GMT
+ POST /auth/login 200 169.036 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:03 GMT
+ POST /auth/login 200 69.496 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:24 GMT
+ POST /auth/login 401 50.320 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:39 GMT - error-message: Incorrect email or password
+ POST /auth/login 401 52.592 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:02:56 GMT - error-message: Incorrect email or password
+ POST /auth/login 200 55.247 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:03:14 GMT

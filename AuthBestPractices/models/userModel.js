@@ -14,7 +14,7 @@ const userSchema = mongoose.Schema(
       required: true,
       unique: true,
       trim: true,
-      lowwercase: true,
+      lowercase: true,
       validate(value){
         if(!validator.isEmail(value)){
           throw new Error("Invalid Email Address");
@@ -55,6 +55,7 @@ userSchema.methods.isPasswordMatch = async function (password) {
   const user = this;
   return await bcrypt.compare(password, user.password);
 };
+
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
