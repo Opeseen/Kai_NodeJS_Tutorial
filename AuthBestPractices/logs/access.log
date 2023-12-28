@@ -1,21 +1,40 @@
- POST /auth/login 200 100.794 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:22 GMT
- POST /auth/login 401 94.443 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:29 GMT - error-message: Incorrect email or password
- POST /auth/login 200 85.041 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:37 GMT
- POST /auth/register 400 10.432 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:55:43 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 400 33.185 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:22 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/login 200 79.876 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:26 GMT
- POST /auth/login 401 6.866 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:56:43 GMT - error-message: Incorrect email or password
- POST /auth/register 400 10.466 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:57:30 GMT - error-message: Email Adddress Is Already Taken
- POST /auth/register 400 11.591 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:57:54 GMT - error-message: "body.email" must be a valid email
- POST /auth/register 201 106.123 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:58:02 GMT
- POST /auth/login 200 49.255 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:58:55 GMT
- POST /auth/login 401 46.411 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:13 GMT - error-message: Incorrect email or password
- POST /auth/login 401 55.200 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:30 GMT - error-message: Incorrect email or password
- POST /auth/login 200 42.505 ms PostmanRuntime/7.36.0 Wed, 27 Dec 2023 23:59:41 GMT
- POST /auth/login 200 70.445 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:00:02 GMT
- POST /auth/login 200 85.142 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:00:50 GMT
- POST /auth/login 200 169.036 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:03 GMT
- POST /auth/login 200 69.496 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:24 GMT
- POST /auth/login 401 50.320 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:01:39 GMT - error-message: Incorrect email or password
- POST /auth/login 401 52.592 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:02:56 GMT - error-message: Incorrect email or password
- POST /auth/login 200 55.247 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 00:03:14 GMT
+ POST /auth/register 400 50.361 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 16:42:38 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/register 201 238.539 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 16:51:07 GMT
+ POST /auth/refreshToken 200 103.229 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 16:54:36 GMT
+ POST /blog 201 257.472 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:14:43 GMT
+ GET /blog 200 15.775 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:14:52 GMT
+ POST /auth/login 500 5.812 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:16:09 GMT - error-message: request is not defined
+ POST /auth/login 500 34.419 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:17:00 GMT - error-message: callback is not a function
+ GET /blog 200 26.477 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:19:09 GMT
+ POST /blog 201 44.045 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:19:26 GMT
+ GET /blog 200 5.991 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:19:30 GMT
+ POST /auth/login 500 6.702 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:19:35 GMT - error-message: callback is not a function
+ POST /auth/login 401 29.035 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:20:39 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/register 400 62.070 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:27:57 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/login 200 74.512 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:28:02 GMT
+ GET /blog 401 5.830 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:32:06 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /blog 401 4.233 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:32:11 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /blog 401 4.634 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:33:15 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 3.455 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:33:20 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/login 200 46.349 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:33:37 GMT
+ GET /blog 401 8.958 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:34:30 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 8.041 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:34:49 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/register 400 8.781 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:34:57 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/register 201 91.651 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:35:25 GMT
+ GET /blog 401 4.880 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:36:41 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 5.138 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:36:47 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 5.622 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:37:48 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 30.520 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:39:55 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 33.232 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:41:01 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 19.984 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:43:03 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/login 401 39.704 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:43:24 GMT - error-message: Incorrect email or password
+ POST /auth/register 201 129.873 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:43:29 GMT
+ POST /auth/login 200 61.074 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:43:37 GMT
+ GET /blog 401 13.813 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:44:04 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 29.135 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:46:34 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/login 200 143.371 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:46:39 GMT
+ GET /blog 401 11.633 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:47:03 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 52.746 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:51:10 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/register 201 642.503 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:55:01 GMT
+ POST /auth/login 200 69.392 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:55:15 GMT
+ GET /blog 401 73.474 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:59:15 GMT - error-message: PLEASE AUTHENTICATE!!

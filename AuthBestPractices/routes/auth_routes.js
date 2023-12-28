@@ -8,4 +8,6 @@ router.post('/auth/register',validate(userValidation.createUserSchema),authContr
 
 router.post('/auth/login',validate(authValidation.loginSchema),authController.login);
 
+router.post('/auth/refreshToken',validate(authValidation.refreshTokenSchema),authController.refreshToken);
+
 module.exports = router;

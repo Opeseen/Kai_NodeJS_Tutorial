@@ -1,6 +1,6 @@
 const joi = require('joi');
 
-// Request validation schema
+// User Login Request validation schema
 const loginSchema = {
   body: joi.object().keys({
     email: joi.string().email().required(),
@@ -8,6 +8,14 @@ const loginSchema = {
   }),
 };
 
+// User Refresh Token Request validation schema
+const refreshTokenSchema = {
+  body: joi.object().keys({
+    refreshToken: joi.string().required()
+  }),
+};
+
 module.exports = {
   loginSchema,
+  refreshTokenSchema,
 }

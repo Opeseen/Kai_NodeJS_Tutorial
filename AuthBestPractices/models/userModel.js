@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
+const toJson = require('@meanie/mongoose-to-json');
 
 const userSchema = mongoose.Schema(
   {
@@ -26,6 +27,7 @@ const userSchema = mongoose.Schema(
       required: true,
       trim: true,
       minlength: 8,
+      private: true,
       validate(value){
         if(!validator.isStrongPassword(value)){
           throw new Error("Password should contain at least one uppercase and lowercase, number and special character");
@@ -55,6 +57,8 @@ userSchema.methods.isPasswordMatch = async function (password) {
   const user = this;
   return await bcrypt.compare(password, user.password);
 };
+
+userSchema.plugin(toJson);
 
 const User = mongoose.model('User', userSchema);
 
