@@ -17,10 +17,7 @@ const auth = async(req,res,next) => {
 
     })
     .then(() => next())
-    .catch((error) => {
-        console.log("AN ERROR OCCURED",error);
-        next(error);
-    });
+    .catch((error) => next(error));
 };
 
 

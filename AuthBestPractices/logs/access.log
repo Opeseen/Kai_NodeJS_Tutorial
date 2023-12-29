@@ -38,3 +38,42 @@
  POST /auth/register 201 642.503 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:55:01 GMT
  POST /auth/login 200 69.392 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:55:15 GMT
  GET /blog 401 73.474 ms PostmanRuntime/7.36.0 Thu, 28 Dec 2023 18:59:15 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blogs 404 11.115 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:17:17 GMT - error-message: Not Found
+ GET /blog 401 12.589 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:17:23 GMT - error-message: please authenticate
+ GET /blog 200 33.418 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:19:45 GMT
+ POST /blog 201 382.785 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:20:05 GMT
+ GET /blog 401 17.137 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:21:09 GMT - error-message: please authenticate
+ GET /blog 200 37.959 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:24:35 GMT
+ GET /blog 200 40.461 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:25:28 GMT
+ GET /blog 200 39.317 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:26:13 GMT
+ GET /blog 401 20.560 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:27:07 GMT - error-message: please authenticate
+ GET /blog 401 27.027 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:27:51 GMT - error-message: please authenticate
+ GET /blog 200 31.694 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:30:31 GMT
+ GET /blog 401 56.136 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:30:38 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 200 17.058 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:30:42 GMT
+ POST /auth/refreshToken 401 38.124 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:30:52 GMT - error-message: Please Authenticate
+ POST /auth/login 200 93.706 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:31:06 GMT
+ POST /auth/refreshToken 401 7.735 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:31:28 GMT - error-message: Please Authenticate
+ POST /auth/refreshToken 200 20.678 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:31:48 GMT
+ POST /auth/register 400 46.292 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:32:55 GMT - error-message: Email Adddress Is Already Taken
+ POST /auth/login 200 64.557 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:33:05 GMT
+ GET /blog 200 16.968 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:33:11 GMT
+ POST /blog 201 22.445 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:33:14 GMT
+ GET /blog 401 15.271 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:34:39 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /auth/register 201 68.901 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:35:03 GMT
+ GET /blog 401 8.917 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:35:40 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 401 9.349 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:35:47 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 200 7.658 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:36:06 GMT
+ GET /blog 200 34.605 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:37:13 GMT
+ GET /blog 401 6.050 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:37:19 GMT - error-message: PLEASE AUTHENTICATE!!
+ GET /blog 200 8.894 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:37:29 GMT
+ POST /blog 201 40.623 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:37:45 GMT
+ POST /auth/refreshToken 401 51.080 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:39:06 GMT - error-message: Please Authenticate
+ POST /auth/login 200 78.043 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:39:11 GMT
+ GET /blog 200 21.953 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:39:25 GMT
+ GET /blog 200 7.468 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:40:19 GMT
+ GET /blog 200 8.329 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:40:22 GMT
+ POST /blog 201 24.079 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:40:41 GMT
+ POST /blog 401 6.519 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:41:13 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /blog 201 8.226 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:41:31 GMT
+ GET /blog 200 8.760 ms PostmanRuntime/7.36.0 Fri, 29 Dec 2023 18:41:35 GMT

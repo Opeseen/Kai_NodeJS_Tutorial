@@ -15,8 +15,7 @@ const registerUser = catchAsyncError(async(req,res) => {
 const login = catchAsyncError(async(req,res) => {
   const {email, password} = req.body;
   const user = await authService.login(email, password);
-  const token = await tokenService.generateAuthToken(user.id);
-  res.status(httpStatus.OK).send({user,token});
+  res.status(httpStatus.OK).send({user});
 
 });
 
