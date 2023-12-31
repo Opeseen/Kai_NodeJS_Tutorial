@@ -97,3 +97,9 @@
  POST /auth/register 400 95.468 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 16:58:12 GMT - error-message: Token validation failed: expires: Cast to date failed for value "Invalid Date" (type Date) at path "expires"
  POST /auth/register 201 246.390 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 16:58:32 GMT
  POST /auth/register 201 183.044 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:00:44 GMT
+ GET /blog 200 22.809 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:15:30 GMT
+ POST /auth/login 401 20.255 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:15:43 GMT - error-message: Incorrect email or password
+ POST /auth/login 200 40.959 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:16:02 GMT
+ GET /blog 200 26.700 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:18:04 GMT
+ POST /blog 201 36.360 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:18:31 GMT
+ GET /blog 200 15.177 ms PostmanRuntime/7.36.0 Sun, 31 Dec 2023 17:18:35 GMT
