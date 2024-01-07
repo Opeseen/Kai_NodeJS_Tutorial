@@ -1,0 +1,26 @@
+ GET / 404 16.741 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0 Tue, 02 Jan 2024 20:38:06 GMT - error-message: Not Found
+ GET /blog 401 88.967 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0 Tue, 02 Jan 2024 20:38:33 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /blog 201 1256.334 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:10:02 GMT
+ POST /blog 400 15.869 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:10:21 GMT - error-message: "body.title" is required
+ POST /blog 401 74.017 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:10:40 GMT - error-message: PLEASE AUTHENTICATE!!
+ POST /blog 400 68.055 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:10:46 GMT - error-message: "body.title" is required
+ POST /blog 400 23.948 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:14:26 GMT - error-message: "body.title" is required
+ POST /blog 400 21.863 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:16:48 GMT - error-message: "body.title" is required
+ POST /blog 500 43.671 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:20:56 GMT - error-message: error() must return an Error object
+ POST /blog 500 17.341 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:24:47 GMT - error-message: error() must return an Error object
+ POST /blog 400 23.305 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:27:15 GMT - error-message: "body.title" is required
+ POST /blog 400 49.619 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:30:34 GMT - error-message: "body.title" is required
+ POST /blog 400 58.951 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:35:45 GMT - error-message: "body.title" is required
+ POST /blog 400 71.037 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:42:12 GMT - error-message: "body.title" is required
+ POST /blog 400 52.533 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:42:39 GMT - error-message: "body.title" is required
+ POST /blog 400 39.363 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:43:10 GMT - error-message: "body.title" is required
+ POST /blog 400 63.909 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:44:35 GMT - error-message: "" is a required field
+ POST /blog 400 32.010 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:45:11 GMT - error-message: "title" is a required field
+ POST /blog 400 28.598 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:45:54 GMT - error-message: "string.base" is a required field
+ POST /blog 400 60.727 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:46:33 GMT - error-message: title is a required field
+ POST /blog 400 21.199 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:47:44 GMT - error-message: title is a required field
+ POST /blog 400 30.021 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:53:40 GMT - error-message: "body.title" is required
+ POST /blog 400 43.214 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:55:53 GMT - error-message: title is required field
+ POST /blog 400 46.459 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:56:22 GMT - error-message: "body.description" is required
+ POST /blog 201 38.174 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:56:41 GMT
+ POST /blog 400 9.250 ms PostmanRuntime/7.36.0 Sun, 07 Jan 2024 12:56:49 GMT - error-message: title is required field
